@@ -1608,6 +1608,13 @@
 		line-height: 2em;
 	}
 
+        		@media screen and (max-width: 1920px) {
+
+			body, input, select, textarea {
+				font-size: 10pt;
+			}
+        }
+
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
@@ -1667,7 +1674,9 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 4em 0;
+		text-transform: none;
+		text-decoration: none;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1675,7 +1684,7 @@
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
